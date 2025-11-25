@@ -23,7 +23,7 @@ export function Header() {
         </nav>
 
         <Button size="sm" className="bg-purple-600 hover:bg-purple-700" asChild>
-          <a href="https://tribe.waitlist.so" target="_blank">
+          <a href="https://tribe.waitlist.so" target="_blank" rel="noopener noreferrer">
             Join Waitlist
           </a>
         </Button>

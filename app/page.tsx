@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-10 bg-purple-600 hover:bg-purple-700" asChild>
-                <a href="https://tribe.waitlist.so" target="_blank">Join the Waitlist →</a>
+                <a href="https://tribe.waitlist.so" target="_blank" rel="noopener noreferrer">Join the Waitlist →</a>
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-10">
                 Watch Demo

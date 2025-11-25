@@ -53,6 +53,16 @@ npm start
 npm run lint
 ```
 
+## Security
+
+This project includes security best practices:
+- Security headers via middleware
+- XSS protection
+- Clickjacking prevention
+- Safe external links
+
+See [SECURITY.md](./SECURITY.md) for detailed security information and deployment guidelines.
+
 ## Component Library
 
 Pre-built, reusable UI components following Shadcn patterns:
@@ -91,6 +101,9 @@ export default function PricingPage() {
 - ✅ Responsive design (mobile-first)
 - ✅ TypeScript strict mode
 - ✅ Path aliases (`@/components`, `@/lib`)
+- ✅ Security headers (X-Content-Type-Options, X-Frame-Options, X-XSS-Protection)
+- ✅ Safe external links with rel attributes
+- ✅ Proper metadata and SEO tags
 
 ## Next Steps
 
