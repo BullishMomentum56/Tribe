@@ -4,10 +4,9 @@ import { ArrowRight, Check, Users, Zap, DollarSign, Sparkles } from "lucide-reac
 
 export default function Home() {
   return (
-    <>
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-black">
-        {/* Hero */}
-        <section className="px-6 pt-20 pb-32 text-center">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-black">
+      {/* Hero */}
+      <section className="px-6 pt-20 pb-32 text-center">
           <div className="max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-purple-100 dark:bg-purple-900/30 px-4 py-2 rounded-full text-sm font-medium text-purple-700 dark:text-purple-300 mb-6">
               <Sparkles className="w-4 h-4" />
@@ -53,11 +52,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="px-6 py-16 text-center text-gray-500">
-          <p>Made with fire by a broke founder who got sick of 30% fees</p>
-        </footer>
-      </div>
-    </>
+      {/* Footer */}
+      <footer className="px-6 py-16 text-center text-gray-500">
+        <p>Made with fire by a broke founder who got sick of 30% fees</p>
+      </footer>
+    </div>
   );
 }
