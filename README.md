@@ -40,6 +40,8 @@ npm run dev
 
 Visit `http://localhost:3000` in your browser.
 
+> **Note**: All configuration files (`package.json`, `next.config.mjs`, etc.) are now real files, not symlinks. This ensures compatibility with all deployment environments.
+
 ### Building
 
 ```bash
@@ -52,6 +54,12 @@ npm start
 ```bash
 npm run lint
 ```
+
+## Deployment
+
+The project is ready for production deployment on Vercel, Netlify, AWS, or any Node.js-compatible platform.
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for comprehensive deployment instructions and platform-specific guides.
 
 ## Security
 

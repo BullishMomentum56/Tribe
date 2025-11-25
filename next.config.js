@@ -1,1 +1,1 @@
-app/components/ui/lib/next.config.js
+module.exports = require('./next.config.mjs');

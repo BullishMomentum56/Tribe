@@ -1,1 +1,11 @@
-app/components/ui/lib/vercel.json
+{
+  "builds": [
+    {
+      "src": "app/**",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/" }
+  ]
+}
