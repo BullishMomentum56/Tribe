@@ -1,12 +1,6 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Tribe – The fair Whop/Skool killer",
-  description: "Keep 98–100% of your revenue. Beautiful communities & courses.",
+export const metadata = {
+  title: "Tribe",
+  description: "Keep 98–100% of everything you earn.",
 };
 
 export default function RootLayout({
@@ -14,9 +8,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+  return children;
 }
